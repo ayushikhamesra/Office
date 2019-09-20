@@ -1,0 +1,106 @@
+html,body{
+    box-sizing: border-box;
+}
+.main-container{
+    display: grid;
+    grid-template-columns: repeat(1,1fr)
+}
+h1{
+    text-align: center;
+}
+#selectdropdown {
+    height: 30px;
+}
+.add-btn{
+  height: 30px;
+  width: 120px;
+  color:rgb(77, 169, 206);
+  border-color:rgb(77, 169, 206);
+  background-color: white;
+}
+
+.btn-close{
+    align-content: center;
+    height: 30px;
+    width: 150px;
+    border-radius: 20px;
+    border-block-end-color: rgb(47, 98, 207);
+    color: rgb(47, 98, 207) ;
+    background-color: white;
+    margin-top: 70px;
+    margin-left: 600px;
+}
+.searchContainer {
+    display: inline-flex;
+    flex: 1 1 300px;
+    position: relative;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    float: right;
+    margin-right:20px;
+  }
+    .searchIcon {
+    padding: 0.5rem;
+    /* padding:8px; */
+  }
+  .searchBox {
+    border: 0;
+    margin-top: 3px;
+    padding: 0.5rem 0.5rem 0.5rem 0;
+    flex: 1;
+  }
+  
+.cx-product-manager{
+    margin-top: 40px;
+   
+}
+.cx-details{  
+    display: inline-block;
+    height: 60px;
+    width: 180px;
+    top: 20px;
+    padding: 2px;
+    text-align: center;
+border: 1px solid rgb(168, 162, 162) ;
+}
+.add-details{
+    border:0px;
+    /* margin-top:9px; */
+    /* height: 64px;  */
+    background-color: rgb(218, 206, 206)  ;
+}
+
+.cxdm-portfolio-cordinators{
+    margin-top: 20px;
+    /* display: inline-block; */
+}
+.cxdm-details{
+    display: inline-block;
+    height: 60px;
+    width: 180px;
+    padding: 2px;
+    top: 20px;
+    text-align: center;
+border: 1px solid rgb(168, 162, 162) ;
+}
+#approver{
+    color: rgb(47, 98, 207);
+}
+
+.legal{
+    margin-top: 20px; 
+}
+.legal-details{
+    height: 60px;
+    width: 180px;
+    top: 20px;
+    padding: 2px;
+    text-align: center;
+border: 1px solid rgb(168, 162, 162) ;
+}
+
+#lock-icon{
+    float:right;
+}
+
