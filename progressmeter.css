@@ -1,7 +1,10 @@
+h2{
+    margin:30px 0 0 30px;
+    }
 .progress{
  margin: 300px auto;
  border:1px solid gray;
- height: 250px;
+ height: 260px;
  width: 750px;
 }
 ul{
